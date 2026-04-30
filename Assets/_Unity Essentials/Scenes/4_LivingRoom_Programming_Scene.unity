@@ -1228,6 +1228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   speed: 3
   rotationSpeed: 120
+  jumpForce: 5
 --- !u!1001 &2107903867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1568,6 +1569,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7191215454107029894, guid: 625a16b402cfd487494f48992994e27e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7572742035931642408, guid: 625a16b402cfd487494f48992994e27e,
         type: 3}
