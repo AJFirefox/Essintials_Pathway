@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         // Jumping
-        if (Input.GetButtonDown("Jump"))
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
         }
